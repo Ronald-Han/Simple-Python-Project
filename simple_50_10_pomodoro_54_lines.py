@@ -1,3 +1,8 @@
+# Simple Python project
+# Pomodoro timer
+# Python 2025
+# Easy code
+
 import time
 
 WORK_MIN = 50
