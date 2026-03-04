@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pomodoro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="reminder">
+<h3>Reminders</h3>
+<textarea placeholder="Write here..."></textarea>
+</div>
+
+<div class="main">
+<h1 id="timer">25:00</h1>
+
+<input id="work" type="number" value="25">
+<input id="break" type="number" value="5">
+
+<br><br>
+
+<button onclick="start()">Start</button>
+<button onclick="reset()">Reset</button>
+
+<p id="status">Ready</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
